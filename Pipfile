@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-kac_prediction = {git = "https://github.com/lewiswolf/kac_prediction.git"}
+kac_prediction = {file = "../", editable = true}
 numpy = ">=2.0"
 opencv-python = ">=4.10"
 
