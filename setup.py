@@ -5,7 +5,7 @@ Custom build script used to import this package's metadata from both the readme 
 # core
 import codecs
 import os
-from setuptools import find_packages
+from setuptools import find_namespace_packages
 from skbuild import setup
 
 
@@ -65,7 +65,7 @@ setup(
 	keywords=['kac_drumset'],
 	long_description_content_type='text/markdown',
 	name=name,
-	packages=find_packages(),
+	packages=find_namespace_packages(),
 	package_data={'kac_drumset': ['py.typed']},
 	version=version,
 )
