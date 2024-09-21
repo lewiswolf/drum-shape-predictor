@@ -617,7 +617,7 @@ class FDTD_2D():
 ### Import
 
 ```python
-from kac_drumset import (
+from kac_drumset.samplers import (
 	BesselModel,
 	FDTDModel,
 	LaméModel,
